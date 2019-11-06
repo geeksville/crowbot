@@ -30,3 +30,30 @@ So that's my rough plan - any feedback is welcome.
 
 I'll be writing the first version in November (in this github) and then iterating with my black winged test subjects through the winter and spring.
 If you'd like to contact me, I'm kevinh@geeksville.com.
+
+## Task notes
+
+These notes might be expanded into a full article at some point, but for now they are just my notes on getting the hardware working.
+
+### Coral hardware & software setup
+
+Per https://coral.withgoogle.com/docs/dev-board/get-started/
+
+Their demo can be reached over wifi at http://crowbot.local:4664/
+
+### Setup camera hardware & software
+
+Per https://coral.withgoogle.com/docs/dev-board/camera
+
+
+### 3D printable devboard mount
+
+Requirements: rainproof for exterior mounting, good fan vent support, ribbon cable opening to camera case.  Mount camera case at an adustable angle using two screws.  Or probably keep the camera fixed relative to the devboard case and pivot the entire case.
+
+Or possibly just put the USB camera outside (don't use Coral camera) and leave Coral inside.
+
+STEP file [here](https://coral.withgoogle.com/docs/dev-board/datasheet/)
+
+Per [datasheet](https://coral.withgoogle.com/docs/camera/datasheet/) Camera STEP file
+
+WIP editable CAD model [here](https://cad.onshape.com/documents/f2a0b54590053dee5f07391b/w/a71138c8f6a13ec4c8450d21/e/8161a625f06e7b739b82fb44).
