@@ -41,6 +41,16 @@ Per https://coral.withgoogle.com/docs/dev-board/get-started/
 
 Their demo can be reached over wifi at http://crowbot.local:4664/
 
+Make device accessible over wifi via ssh with:
+```
+kevinh@kevin-server:~/development/ebike/Color_LCD/firmware/SW102$ mdt pushkey ~/.ssh/id_rsa.pub 
+Waiting for a device...
+Connecting to crowbot at 192.168.100.2
+Pushing /home/kevinh/.ssh/id_rsa.pub
+Key /home/kevinh/.ssh/id_rsa.pub pushed.
+kevinh@kevin-server:~/development/ebike/Color_LCD/firmware/SW102$ ssh mendel@crowbot.local
+```
+
 ### Setup camera hardware & software
 
 Per https://coral.withgoogle.com/docs/dev-board/camera
